@@ -163,7 +163,7 @@ Gametime performers with name, abbreviation, slug, category, category group, pri
 
 
 
-> **7,889** total records from 2025-11-16 to 2026-03-01, **10** rows in this sample (0.13% of full dataset).
+> **7,889** total records from 2025-11-16 to 2026-03-01, **1,000** rows in this sample (12.7% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](performers/chart-growth.svg)
@@ -228,7 +228,7 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 
 
 
-> **3,451** total records from 2025-11-16 to 2026-03-01, **10** rows in this sample (0.29% of full dataset).
+> **3,451** total records from 2025-11-16 to 2026-03-01, **1,000** rows in this sample (29.0% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](venues/chart-growth.svg)
