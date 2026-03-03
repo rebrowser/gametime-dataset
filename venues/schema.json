@@ -1,0 +1,135 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "venueId",
+    "type": "string",
+    "description": "Unique venue ID (e.g., 61fc67e3b1776e00011716d3)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "description": "Venue name (e.g., New Orleans Fairgrounds)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "slug",
+    "type": "string",
+    "description": "URL-friendly venue slug (e.g., new_orleans_fairgrounds)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "city",
+    "type": "string",
+    "description": "City name (e.g., New Orleans)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "state",
+    "type": "string",
+    "description": "State abbreviation (e.g., LA)",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "metro",
+    "type": "string",
+    "description": "Metro area identifier (e.g., neworleans)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "timezone",
+    "type": "string",
+    "description": "IANA timezone (e.g., America/Chicago)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "latitude",
+    "type": "float",
+    "description": "Venue latitude coordinate",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "longitude",
+    "type": "float",
+    "description": "Venue longitude coordinate",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "addressCountryCode",
+    "type": "string",
+    "description": "Address country code (e.g., US)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "addressCity",
+    "type": "string",
+    "description": "Address city (e.g., New Orleans)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "addressState",
+    "type": "string",
+    "description": "Address state (e.g., LA)",
+    "fillRate": 98,
+    "premium": false
+  },
+  {
+    "name": "addressPostalCode",
+    "type": "string",
+    "description": "Address postal/ZIP code (e.g., 70116)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "addressStreet",
+    "type": "string",
+    "description": "Street address (e.g., 1751 Gentilly Boulevard)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "addressExtended",
+    "type": "string",
+    "description": "Extended address (e.g., New Orleans, LA 70116)",
+    "fillRate": 96,
+    "premium": false
+  },
+  {
+    "name": "imageUrl",
+    "type": "string",
+    "description": "Venue image URL",
+    "fillRate": 100,
+    "premium": true
+  }
+]

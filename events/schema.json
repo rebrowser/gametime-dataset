@@ -1,0 +1,170 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "eventId",
+    "type": "string",
+    "description": "Unique event ID (e.g., 672a9e0be4da09717f007c8b)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "description": "Event name/title (e.g., Daniel O Donnell, Elf The Musical)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "category",
+    "type": "string",
+    "description": "Event category (music, theater, sports)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "datetimeLocal",
+    "type": "datetime",
+    "description": "Event local datetime",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "datetimeUtc",
+    "type": "datetime",
+    "description": "Event UTC datetime",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "salesCutOff",
+    "type": "datetime",
+    "description": "Sales cutoff datetime (when ticket sales end)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "tbd",
+    "type": "bool",
+    "description": "Event is TBD (to be determined)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "timeTbd",
+    "type": "bool",
+    "description": "Event time is TBD",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "dateTbd",
+    "type": "bool",
+    "description": "Event date is TBD",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "minPriceTotal",
+    "type": "float",
+    "description": "Minimum ticket price in cents (total with fees)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "minPricePrefee",
+    "type": "float",
+    "description": "Minimum ticket price in cents (before fees)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "maxPriceTotal",
+    "type": "float",
+    "description": "Maximum ticket price in cents (total with fees)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "maxPricePrefee",
+    "type": "float",
+    "description": "Maximum ticket price in cents (before fees)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "zoneDealPriceTotal",
+    "type": "float",
+    "description": "Zone deal price in cents (total)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "flashDealPriceTotal",
+    "type": "float",
+    "description": "Flash deal price in cents (total)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "hasExclusives",
+    "type": "bool",
+    "description": "Event has exclusive listings",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "mapless",
+    "type": "bool",
+    "description": "Event has no seat map",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "venueId",
+    "type": "string",
+    "description": "Venue ID (join with gametime_venues for details)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "performerIds",
+    "type": "array",
+    "description": "Performer IDs (join with gametime_performers for details)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "popularityScore",
+    "type": "float",
+    "description": "Event popularity score",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "trendingScore",
+    "type": "float",
+    "description": "Event trending score",
+    "fillRate": 98,
+    "premium": true
+  }
+]

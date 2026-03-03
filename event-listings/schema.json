@@ -1,0 +1,191 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "listingId",
+    "type": "string",
+    "description": "Unique listing ID (e.g., 6908fe8a9c1370439bc948a4)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "eventId",
+    "type": "string",
+    "description": "Event ID this listing belongs to (join with gametime_events)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "pricePrefee",
+    "type": "float",
+    "description": "Ticket price in cents before fees",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "priceTotal",
+    "type": "float",
+    "description": "Total ticket price in cents (with fees)",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "priceFaceValue",
+    "type": "float",
+    "description": "Face value of ticket in cents (original printed price)",
+    "fillRate": 55,
+    "premium": true
+  },
+  {
+    "name": "salesTax",
+    "type": "float",
+    "description": "Sales tax amount in cents",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "preTaxTotal",
+    "type": "float",
+    "description": "Pre-tax total price in cents",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "availableLots",
+    "type": "array",
+    "description": "Available ticket quantities (e.g., [1,2,3,4] means you can buy 1, 2, 3, or 4 tickets)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "section",
+    "type": "string",
+    "description": "Venue section number/name (e.g., 317, 106, 438)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "row",
+    "type": "string",
+    "description": "Row within section (e.g., 8, 3, GA)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "sectionGroup",
+    "type": "string",
+    "description": "Section group/tier (e.g., Club Corner, Lower Corner, Upper, Dream Seat)",
+    "fillRate": 85,
+    "premium": false
+  },
+  {
+    "name": "seats",
+    "type": "array",
+    "description": "Seat numbers (* indicates unassigned/GA)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "deliveryType",
+    "type": "string",
+    "description": "Ticket delivery method (mobile, electronic, direct, hard, instant)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "transferType",
+    "type": "string",
+    "description": "Ticket transfer type (tm, paciolan, sg, axs, mlb, text)",
+    "fillRate": 78,
+    "premium": false
+  },
+  {
+    "name": "ticketType",
+    "type": "string",
+    "description": "Ticket type (tmqr, tm, tm-web, tdc, gtlew, url, tm-official)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "deal",
+    "type": "string",
+    "description": "Deal indicator (great, amazing, cheapest, super, zone)",
+    "fillRate": 33,
+    "premium": false
+  },
+  {
+    "name": "savingsAmount",
+    "type": "float",
+    "description": "Displayed savings amount in cents",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "savingsPercent",
+    "type": "float",
+    "description": "Displayed savings percentage",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "disclosures",
+    "type": "array",
+    "description": "Ticket disclosures (club_access, first_row, aisle, limited_view, standing_room, zone_deal, etc.)",
+    "fillRate": 2,
+    "premium": false
+  },
+  {
+    "name": "inHandDate",
+    "type": "datetime",
+    "description": "Date when tickets will be in hand for delivery",
+    "fillRate": 84,
+    "premium": false
+  },
+  {
+    "name": "eventName",
+    "type": "string",
+    "description": "Event name (from events table)",
+    "fillRate": null,
+    "premium": false
+  },
+  {
+    "name": "eventCategory",
+    "type": "string",
+    "description": "Event category (from events table)",
+    "fillRate": null,
+    "premium": false
+  },
+  {
+    "name": "eventDatetimeUtc",
+    "type": "datetime",
+    "description": "Event datetime UTC (from events table)",
+    "fillRate": null,
+    "premium": false
+  },
+  {
+    "name": "eventVenueId",
+    "type": "string",
+    "description": "Event venue ID (from events table)",
+    "fillRate": null,
+    "premium": false
+  }
+]

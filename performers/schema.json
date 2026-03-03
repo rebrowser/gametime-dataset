@@ -1,0 +1,121 @@
+[
+  {
+    "name": "_primaryKey",
+    "type": "string",
+    "description": "Unique identifier for this record",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_firstSeenAt",
+    "type": "datetime",
+    "description": "First time this record was seen",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "_lastSeenAt",
+    "type": "datetime",
+    "description": "Last time this record was updated",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "performerId",
+    "type": "string",
+    "description": "Unique performer ID (e.g., 59dbed9825f2c567c037f20b)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "name",
+    "type": "string",
+    "description": "Performer full name (e.g., Sam Smith)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "shortName",
+    "type": "string",
+    "description": "Performer short name (e.g., Sam Smith)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "mediumName",
+    "type": "string",
+    "description": "Performer medium name (e.g., Sam Smith)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "abbrev",
+    "type": "string",
+    "description": "Performer abbreviation (e.g., SMITH)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "slug",
+    "type": "string",
+    "description": "URL-friendly performer slug (e.g., musicsamsmith)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "category",
+    "type": "string",
+    "description": "Performer category (e.g., music, sports)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "categoryGroup",
+    "type": "string",
+    "description": "Category group (e.g., concert, nfl, nba)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "primaryGenre",
+    "type": "string",
+    "description": "Primary genre slug (e.g., pop)",
+    "fillRate": 59,
+    "premium": false
+  },
+  {
+    "name": "genres",
+    "type": "array",
+    "description": "Array of genre slugs (e.g., pop, rock)",
+    "fillRate": 60,
+    "premium": false
+  },
+  {
+    "name": "primaryColor",
+    "type": "string",
+    "description": "Primary brand color hex (e.g., 637079FF)",
+    "fillRate": 100,
+    "premium": false
+  },
+  {
+    "name": "heroImageUrl",
+    "type": "string",
+    "description": "Hero image URL",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "headerImageUrl",
+    "type": "string",
+    "description": "Header image URL",
+    "fillRate": 100,
+    "premium": true
+  },
+  {
+    "name": "logoImageUrl",
+    "type": "string",
+    "description": "Logo image URL",
+    "fillRate": 100,
+    "premium": true
+  }
+]
