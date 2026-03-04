@@ -80,7 +80,7 @@
     "name": "primaryGenre",
     "type": "string",
     "description": "Primary genre slug (e.g., pop)",
-    "fillRate": 59,
+    "fillRate": 60,
     "premium": false
   },
   {
