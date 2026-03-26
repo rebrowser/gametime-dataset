@@ -157,7 +157,7 @@
     "name": "inHandDate",
     "type": "datetime",
     "description": "Date when tickets will be in hand for delivery",
-    "fillRate": 84,
+    "fillRate": 83,
     "premium": false
   },
   {
