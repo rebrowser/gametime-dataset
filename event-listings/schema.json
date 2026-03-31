@@ -150,7 +150,7 @@
     "name": "disclosures",
     "type": "array",
     "description": "Ticket disclosures (club_access, first_row, aisle, limited_view, standing_room, zone_deal, etc.)",
-    "fillRate": 2,
+    "fillRate": 3,
     "premium": false
   },
   {
