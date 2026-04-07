@@ -129,7 +129,7 @@
     "name": "deal",
     "type": "string",
     "description": "Deal indicator (great, amazing, cheapest, super, zone)",
-    "fillRate": 33,
+    "fillRate": 32,
     "premium": false
   },
   {
