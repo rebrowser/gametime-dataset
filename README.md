@@ -1,6 +1,6 @@
 # Gametime Last-Minute Tickets & Event Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--04--07-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-18.0M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
+![Updated](https://img.shields.io/badge/updated-2026--04--08-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-18.0M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
 
 Daily snapshots of Gametime's last-minute ticket marketplace with events, listings, deal badges, venues, and performers across sports, concerts, and theater.
 
@@ -298,23 +298,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Event Listings
 
 
-[Listings with Deal Badge](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-with-deal) — 5,299,908 records
+[Listings with Deal Badge](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-with-deal) — 5,324,113 records
 
 ↳ `[{"field":"deal","op":"isNotEmpty"},{"sort":"priceTotal ASC"}]`
 
-[Instant Delivery Listings](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-instant-delivery) — 50,268 records
+[Instant Delivery Listings](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-instant-delivery) — 50,654 records
 
 ↳ `[{"field":"deliveryType","op":"is","value":"instant"},{"sort":"priceTotal ASC"}]`
 
-[Listings with Savings](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-with-savings) — 16,001,997 records
+[Listings with Savings](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-with-savings) — 16,284,456 records
 
 ↳ `[{"field":"savingsAmount","op":"gt","value":0},{"sort":"savingsPercent DESC"}]`
 
-[Cheapest Deal Listings](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-cheapest-deal) — 692,953 records
+[Cheapest Deal Listings](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-cheapest-deal) — 699,496 records
 
 ↳ `[{"field":"deal","op":"is","value":"cheapest"},{"sort":"priceTotal ASC"}]`
 
-[Listings by Price (Low to High)](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-by-price) — 16,127,651 records
+[Listings by Price (Low to High)](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-by-price) — 16,284,456 records
 
 ↳ `[{"sort":"priceTotal ASC"}]`
 
@@ -326,23 +326,23 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Events
 
 
-[Events with Flash Deals](https://rebrowser.net/products/datasets/gametime/events/views/events-with-flash-deals) — 125,391 records
+[Events with Flash Deals](https://rebrowser.net/products/datasets/gametime/events/views/events-with-flash-deals) — 126,124 records
 
 ↳ `[{"field":"flashDealPriceTotal","op":"gt","value":0},{"sort":"datetimeUtc ASC"}]`
 
-[NBA Events](https://rebrowser.net/products/datasets/gametime/events/views/nba-events) — 1,318 records
+[NBA Events](https://rebrowser.net/products/datasets/gametime/events/views/nba-events) — 1,353 records
 
 ↳ `[{"field":"category","op":"is","value":"nba"},{"sort":"datetimeUtc ASC"}]`
 
-[Music & Concert Events](https://rebrowser.net/products/datasets/gametime/events/views/gametime-music-events) — 42,156 records
+[Music & Concert Events](https://rebrowser.net/products/datasets/gametime/events/views/gametime-music-events) — 42,563 records
 
 ↳ `[{"field":"category","op":"is","value":"music"},{"sort":"datetimeUtc ASC"}]`
 
-[Events with Zone Deals](https://rebrowser.net/products/datasets/gametime/events/views/events-with-zone-deals) — 125,391 records
+[Events with Zone Deals](https://rebrowser.net/products/datasets/gametime/events/views/events-with-zone-deals) — 126,477 records
 
 ↳ `[{"field":"zoneDealPriceTotal","op":"gt","value":0},{"sort":"datetimeUtc ASC"}]`
 
-[Events with Exclusive Listings](https://rebrowser.net/products/datasets/gametime/events/views/events-with-exclusives) — 26,562 records
+[Events with Exclusive Listings](https://rebrowser.net/products/datasets/gametime/events/views/events-with-exclusives) — 36,503 records
 
 ↳ `[{"field":"hasExclusives","op":"isTrue","value":true},{"sort":"datetimeUtc ASC"}]`
 
@@ -354,7 +354,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Performers
 
 
-[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 4,010 records
+[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 4,019 records
 
 ↳ `[{"field":"category","op":"is","value":"music"},{"sort":"name ASC"}]`
 
@@ -390,11 +390,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"state","op":"is","value":"TX"},{"sort":"name ASC"}]`
 
-[Venues in New York](https://rebrowser.net/products/datasets/gametime/venues/views/venues-new-york) — 221 records
+[Venues in New York](https://rebrowser.net/products/datasets/gametime/venues/views/venues-new-york) — 222 records
 
 ↳ `[{"field":"state","op":"is","value":"NY"},{"sort":"name ASC"}]`
 
-[Venues in Florida](https://rebrowser.net/products/datasets/gametime/venues/views/venues-florida) — 183 records
+[Venues in Florida](https://rebrowser.net/products/datasets/gametime/venues/views/venues-florida) — 184 records
 
 ↳ `[{"field":"state","op":"is","value":"FL"},{"sort":"name ASC"}]`
 
