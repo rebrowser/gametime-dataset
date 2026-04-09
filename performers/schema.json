@@ -87,7 +87,7 @@
     "name": "genres",
     "type": "array",
     "description": "Array of genre slugs (e.g., pop, rock)",
-    "fillRate": 61,
+    "fillRate": 62,
     "premium": false
   },
   {

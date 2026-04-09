@@ -57,14 +57,14 @@
           rx="1" fill="#22c55eb3" />
   <rect x="763" y="225" width="35" height="15"
           rx="1" fill="#22c55eb3" />
-  <rect x="800" y="236" width="35" height="4"
+  <rect x="800" y="233" width="35" height="7"
           rx="1" fill="#22c55eb3" />
   <!-- line (Total, left axis) -->
-  <polyline points="77,240 114,232 151,219 188,207 225,198 262,189 299,179 336,172 373,166 410,158 447,149 484,140 521,131 558,120 595,109 632,99 669,88 706,75 743,64 780,53 817,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
+  <polyline points="77,240 114,232 151,219 188,208 225,198 262,189 299,180 336,173 373,167 410,159 447,150 484,141 521,132 558,121 595,111 632,100 669,89 706,76 743,66 780,55 817,50" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linejoin="round" stroke-linecap="round" />
   <!-- left y-axis labels (Total) -->
   <text x="52" y="56" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
-           >135k</text>
+           >136k</text>
   <text x="52" y="149" text-anchor="end"
            font-family="-apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif" font-size="10" fill="#586069"
            >94k</text>
