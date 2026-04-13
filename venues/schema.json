@@ -52,7 +52,7 @@
     "name": "state",
     "type": "string",
     "description": "State abbreviation (e.g., LA)",
-    "fillRate": 98,
+    "fillRate": 97,
     "premium": false
   },
   {
@@ -101,7 +101,7 @@
     "name": "addressState",
     "type": "string",
     "description": "Address state (e.g., LA)",
-    "fillRate": 98,
+    "fillRate": 97,
     "premium": false
   },
   {
