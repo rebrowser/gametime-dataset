@@ -115,7 +115,7 @@
     "name": "transferType",
     "type": "string",
     "description": "Ticket transfer type (tm, paciolan, sg, axs, mlb, text)",
-    "fillRate": 76,
+    "fillRate": 75,
     "premium": false
   },
   {
