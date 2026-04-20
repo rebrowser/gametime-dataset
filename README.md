@@ -1,6 +1,6 @@
 # Gametime Last-Minute Tickets & Event Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--04--19-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-19.5M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
+![Updated](https://img.shields.io/badge/updated-2026--04--20-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-19.8M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
 
 Daily snapshots of Gametime's last-minute ticket marketplace with events, listings, deal badges, venues, and performers across sports, concerts, and theater.
 
@@ -21,7 +21,7 @@ Per-event ticket listings from Gametime with section, row, seat group, delivery 
 
 
 
-> **19,376,299** total records from 2025-11-16 to 2026-04-12, **up to 30,000** rows in this sample (0.15% of full dataset).
+> **19,650,324** total records from 2025-11-16 to 2026-04-12, **up to 30,000** rows in this sample (0.15% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](event-listings/chart-growth.svg)
@@ -71,11 +71,11 @@ Per-event ticket listings from Gametime with section, row, seat group, delivery 
 
 | Value | Count | Share |
 | --- | --- | --- |
-| great | 2,733,058 | `█████████░░░░░░░░░░░` 43.9% |
-| amazing | 2,217,361 | `███████░░░░░░░░░░░░░` 35.6% |
-| cheapest | 824,065 | `███░░░░░░░░░░░░░░░░░` 13.2% |
-| super | 439,288 | `█░░░░░░░░░░░░░░░░░░░` 7.1% |
-| zone | 17,228 | `░░░░░░░░░░░░░░░░░░░░` 0.3% |
+| great | 2,766,814 | `█████████░░░░░░░░░░░` 43.8% |
+| amazing | 2,246,117 | `███████░░░░░░░░░░░░░` 35.6% |
+| cheapest | 835,546 | `███░░░░░░░░░░░░░░░░░` 13.2% |
+| super | 444,479 | `█░░░░░░░░░░░░░░░░░░░` 7.0% |
+| zone | 17,589 | `░░░░░░░░░░░░░░░░░░░░` 0.3% |
 
 </details>
 
@@ -91,7 +91,7 @@ Gametime events with category, local/UTC datetime, deal indicators, venue and pe
 
 
 
-> **142,072** total records from 2025-11-16 to 2026-04-12, **up to 30,000** rows in this sample (21.1% of full dataset).
+> **143,731** total records from 2025-11-16 to 2026-04-12, **up to 30,000** rows in this sample (20.9% of full dataset).
 > Exported as one file per day, up to 1,000 rows each, last 30 days retained.
 
 ![Data Growth](events/chart-growth.svg)
@@ -138,16 +138,16 @@ Gametime events with category, local/UTC datetime, deal indicators, venue and pe
 
 | Value | Count | Share |
 | --- | --- | --- |
-| music | 48,415 | `████████░░░░░░░░░░░░` 37.8% |
-| theater | 38,805 | `██████░░░░░░░░░░░░░░` 30.3% |
-| comedy | 19,124 | `███░░░░░░░░░░░░░░░░░` 14.9% |
-| milb | 6,049 | `█░░░░░░░░░░░░░░░░░░░` 4.7% |
-| cbb | 3,913 | `█░░░░░░░░░░░░░░░░░░░` 3.1% |
+| music | 48,989 | `████████░░░░░░░░░░░░` 37.7% |
+| theater | 39,332 | `██████░░░░░░░░░░░░░░` 30.3% |
+| comedy | 19,309 | `███░░░░░░░░░░░░░░░░░` 14.9% |
+| milb | 6,234 | `█░░░░░░░░░░░░░░░░░░░` 4.8% |
+| cbb | 3,913 | `█░░░░░░░░░░░░░░░░░░░` 3.0% |
 | wcbb | 3,098 | `░░░░░░░░░░░░░░░░░░░░` 2.4% |
-| cbs | 2,577 | `░░░░░░░░░░░░░░░░░░░░` 2.0% |
-| other | 2,428 | `░░░░░░░░░░░░░░░░░░░░` 1.9% |
-| echl | 2,006 | `░░░░░░░░░░░░░░░░░░░░` 1.6% |
-| mlb | 1,815 | `░░░░░░░░░░░░░░░░░░░░` 1.4% |
+| cbs | 2,586 | `░░░░░░░░░░░░░░░░░░░░` 2.0% |
+| other | 2,446 | `░░░░░░░░░░░░░░░░░░░░` 1.9% |
+| echl | 2,044 | `░░░░░░░░░░░░░░░░░░░░` 1.6% |
+| mlb | 1,841 | `░░░░░░░░░░░░░░░░░░░░` 1.4% |
 
 </details>
 
@@ -163,7 +163,7 @@ Gametime performers with name, abbreviation, slug, category, category group, pri
 
 
 
-> **8,794** total records from 2025-11-16 to 2026-04-12, **1,000** rows in this sample (11.4% of full dataset).
+> **8,834** total records from 2025-11-16 to 2026-04-12, **1,000** rows in this sample (11.3% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](performers/chart-growth.svg)
@@ -203,14 +203,14 @@ Gametime performers with name, abbreviation, slug, category, category group, pri
 
 | Value | Count | Share |
 | --- | --- | --- |
-| music | 4,348 | `████████████░░░░░░░░` 58.0% |
-| comedy | 758 | `██░░░░░░░░░░░░░░░░░░` 10.1% |
+| music | 4,378 | `████████████░░░░░░░░` 58.1% |
+| comedy | 761 | `██░░░░░░░░░░░░░░░░░░` 10.1% |
 | cbb | 550 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
 | wcbb | 457 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
-| theater | 388 | `█░░░░░░░░░░░░░░░░░░░` 5.2% |
+| theater | 392 | `█░░░░░░░░░░░░░░░░░░░` 5.2% |
 | cbs | 301 | `█░░░░░░░░░░░░░░░░░░░` 4.0% |
 | cfb | 223 | `█░░░░░░░░░░░░░░░░░░░` 3.0% |
-| milb | 169 | `░░░░░░░░░░░░░░░░░░░░` 2.3% |
+| milb | 169 | `░░░░░░░░░░░░░░░░░░░░` 2.2% |
 | csoft | 163 | `░░░░░░░░░░░░░░░░░░░░` 2.2% |
 | soccer | 136 | `░░░░░░░░░░░░░░░░░░░░` 1.8% |
 
@@ -228,7 +228,7 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 
 
 
-> **3,915** total records from 2025-11-16 to 2026-04-12, **1,000** rows in this sample (25.5% of full dataset).
+> **3,947** total records from 2025-11-16 to 2026-04-12, **1,000** rows in this sample (25.3% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](venues/chart-growth.svg)
@@ -270,15 +270,15 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 
 | Value | Count | Share |
 | --- | --- | --- |
-| CA | 401 | `████░░░░░░░░░░░░░░░░` 22.4% |
-| TX | 262 | `███░░░░░░░░░░░░░░░░░` 14.6% |
-| NY | 242 | `███░░░░░░░░░░░░░░░░░` 13.5% |
-| FL | 192 | `██░░░░░░░░░░░░░░░░░░` 10.7% |
-| IL | 132 | `█░░░░░░░░░░░░░░░░░░░` 7.4% |
+| CA | 403 | `████░░░░░░░░░░░░░░░░` 22.4% |
+| TX | 265 | `███░░░░░░░░░░░░░░░░░` 14.7% |
+| NY | 242 | `███░░░░░░░░░░░░░░░░░` 13.4% |
+| FL | 195 | `██░░░░░░░░░░░░░░░░░░` 10.8% |
+| IL | 132 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
 | PA | 131 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
-| OH | 128 | `█░░░░░░░░░░░░░░░░░░░` 7.1% |
-| NC | 108 | `█░░░░░░░░░░░░░░░░░░░` 6.0% |
-| NV | 105 | `█░░░░░░░░░░░░░░░░░░░` 5.9% |
+| OH | 129 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
+| NC | 110 | `█░░░░░░░░░░░░░░░░░░░` 6.1% |
+| NV | 105 | `█░░░░░░░░░░░░░░░░░░░` 5.8% |
 | CO | 90 | `█░░░░░░░░░░░░░░░░░░░` 5.0% |
 
 </details>
@@ -298,15 +298,15 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Event Listings
 
 
-[Listings with Deal Badge](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-with-deal) — 5,766,405 records
+[Listings with Deal Badge](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-with-deal) — 5,802,886 records
 
 ↳ `[{"field":"deal","op":"isNotEmpty"},{"sort":"priceTotal ASC"}]`
 
-[Instant Delivery Listings](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-instant-delivery) — 54,747 records
+[Instant Delivery Listings](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-instant-delivery) — 55,060 records
 
 ↳ `[{"field":"deliveryType","op":"is","value":"instant"},{"sort":"priceTotal ASC"}]`
 
-[Listings with Savings](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-with-savings) — 17,560,054 records
+[Listings with Savings](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-with-savings) — 17,834,110 records
 
 ↳ `[{"field":"savingsAmount","op":"gt","value":0},{"sort":"savingsPercent DESC"}]`
 
@@ -314,7 +314,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"deal","op":"is","value":"cheapest"},{"sort":"priceTotal ASC"}]`
 
-[Listings by Price (Low to High)](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-by-price) — 17,704,263 records
+[Listings by Price (Low to High)](https://rebrowser.net/products/datasets/gametime/event-listings/views/listings-by-price) — 17,834,110 records
 
 ↳ `[{"sort":"priceTotal ASC"}]`
 
@@ -326,7 +326,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Events
 
 
-[Events with Flash Deals](https://rebrowser.net/products/datasets/gametime/events/views/events-with-flash-deals) — 133,609 records
+[Events with Flash Deals](https://rebrowser.net/products/datasets/gametime/events/views/events-with-flash-deals) — 134,767 records
 
 ↳ `[{"field":"flashDealPriceTotal","op":"gt","value":0},{"sort":"datetimeUtc ASC"}]`
 
@@ -334,15 +334,15 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"category","op":"is","value":"nba"},{"sort":"datetimeUtc ASC"}]`
 
-[Music & Concert Events](https://rebrowser.net/products/datasets/gametime/events/views/gametime-music-events) — 45,478 records
+[Music & Concert Events](https://rebrowser.net/products/datasets/gametime/events/views/gametime-music-events) — 45,835 records
 
 ↳ `[{"field":"category","op":"is","value":"music"},{"sort":"datetimeUtc ASC"}]`
 
-[Events with Zone Deals](https://rebrowser.net/products/datasets/gametime/events/views/events-with-zone-deals) — 132,794 records
+[Events with Zone Deals](https://rebrowser.net/products/datasets/gametime/events/views/events-with-zone-deals) — 134,767 records
 
 ↳ `[{"field":"zoneDealPriceTotal","op":"gt","value":0},{"sort":"datetimeUtc ASC"}]`
 
-[Events with Exclusive Listings](https://rebrowser.net/products/datasets/gametime/events/views/events-with-exclusives) — 32,447 records
+[Events with Exclusive Listings](https://rebrowser.net/products/datasets/gametime/events/views/events-with-exclusives) — 34,382 records
 
 ↳ `[{"field":"hasExclusives","op":"isTrue","value":true},{"sort":"datetimeUtc ASC"}]`
 
@@ -354,7 +354,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Performers
 
 
-[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 4,172 records
+[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 4,184 records
 
 ↳ `[{"field":"category","op":"is","value":"music"},{"sort":"name ASC"}]`
 
