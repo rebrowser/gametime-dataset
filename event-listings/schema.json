@@ -52,7 +52,7 @@
     "name": "priceFaceValue",
     "type": "float",
     "description": "Face value of ticket in cents (original printed price)",
-    "fillRate": 55,
+    "fillRate": 56,
     "premium": true
   },
   {
