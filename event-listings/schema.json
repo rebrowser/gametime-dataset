@@ -94,7 +94,7 @@
     "name": "sectionGroup",
     "type": "string",
     "description": "Section group/tier (e.g., Club Corner, Lower Corner, Upper, Dream Seat)",
-    "fillRate": 84,
+    "fillRate": 83,
     "premium": false
   },
   {
