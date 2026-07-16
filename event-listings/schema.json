@@ -115,7 +115,7 @@
     "name": "transferType",
     "type": "string",
     "description": "Ticket transfer type (tm, paciolan, sg, axs, mlb, text)",
-    "fillRate": 75,
+    "fillRate": 74,
     "premium": false
   },
   {
@@ -157,7 +157,7 @@
     "name": "inHandDate",
     "type": "datetime",
     "description": "Date when tickets will be in hand for delivery",
-    "fillRate": 83,
+    "fillRate": 84,
     "premium": false
   },
   {
