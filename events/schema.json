@@ -164,7 +164,7 @@
     "name": "trendingScore",
     "type": "float",
     "description": "Event trending score",
-    "fillRate": 98,
+    "fillRate": 97,
     "premium": true
   }
 ]
