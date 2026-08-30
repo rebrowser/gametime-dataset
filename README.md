@@ -1,6 +1,6 @@
 # Gametime Last-Minute Tickets & Event Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--08--29-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-26.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
+![Updated](https://img.shields.io/badge/updated-2026--08--30-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-26.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
 
 Daily snapshots of Gametime's last-minute ticket marketplace with events, listings, deal badges, venues, and performers across sports, concerts, and theater.
 
@@ -228,7 +228,7 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 
 
 
-> **4,934** total records from 2025-11-16 to 2026-08-23, **1,000** rows in this sample (20.3% of full dataset).
+> **4,956** total records from 2025-11-16 to 2026-08-23, **1,000** rows in this sample (20.2% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](venues/chart-growth.svg)
@@ -270,14 +270,14 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 
 | Value | Count | Share |
 | --- | --- | --- |
-| CA | 478 | `████░░░░░░░░░░░░░░░░` 22.1% |
-| TX | 303 | `███░░░░░░░░░░░░░░░░░` 14.0% |
-| NY | 296 | `███░░░░░░░░░░░░░░░░░` 13.7% |
-| FL | 212 | `██░░░░░░░░░░░░░░░░░░` 9.8% |
-| IL | 173 | `██░░░░░░░░░░░░░░░░░░` 8.0% |
-| OH | 166 | `██░░░░░░░░░░░░░░░░░░` 7.7% |
+| CA | 478 | `████░░░░░░░░░░░░░░░░` 22.0% |
+| TX | 305 | `███░░░░░░░░░░░░░░░░░` 14.0% |
+| NY | 297 | `███░░░░░░░░░░░░░░░░░` 13.7% |
+| FL | 214 | `██░░░░░░░░░░░░░░░░░░` 9.8% |
+| IL | 174 | `██░░░░░░░░░░░░░░░░░░` 8.0% |
+| OH | 167 | `██░░░░░░░░░░░░░░░░░░` 7.7% |
 | PA | 158 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
-| NC | 155 | `█░░░░░░░░░░░░░░░░░░░` 7.2% |
+| NC | 155 | `█░░░░░░░░░░░░░░░░░░░` 7.1% |
 | NV | 117 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
 | GA | 108 | `█░░░░░░░░░░░░░░░░░░░` 5.0% |
 
@@ -330,11 +330,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"flashDealPriceTotal","op":"gt","value":0},{"sort":"datetimeUtc ASC"}]`
 
-[NBA Events](https://rebrowser.net/products/datasets/gametime/events/views/nba-events) — 1,585 records
+[NBA Events](https://rebrowser.net/products/datasets/gametime/events/views/nba-events) — 1,595 records
 
 ↳ `[{"field":"category","op":"is","value":"nba"},{"sort":"datetimeUtc ASC"}]`
 
-[Music & Concert Events](https://rebrowser.net/products/datasets/gametime/events/views/gametime-music-events) — 80,473 records
+[Music & Concert Events](https://rebrowser.net/products/datasets/gametime/events/views/gametime-music-events) — 80,894 records
 
 ↳ `[{"field":"category","op":"is","value":"music"},{"sort":"datetimeUtc ASC"}]`
 
@@ -354,15 +354,15 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Performers
 
 
-[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 5,591 records
+[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 5,619 records
 
 ↳ `[{"field":"category","op":"is","value":"music"},{"sort":"name ASC"}]`
 
-[College Basketball Performers](https://rebrowser.net/products/datasets/gametime/performers/views/cbb-performers) — 555 records
+[College Basketball Performers](https://rebrowser.net/products/datasets/gametime/performers/views/cbb-performers) — 556 records
 
 ↳ `[{"field":"category","op":"is","value":"cbb"},{"sort":"name ASC"}]`
 
-[Theater Performers](https://rebrowser.net/products/datasets/gametime/performers/views/theater-performers) — 459 records
+[Theater Performers](https://rebrowser.net/products/datasets/gametime/performers/views/theater-performers) — 464 records
 
 ↳ `[{"field":"category","op":"is","value":"theater"},{"sort":"name ASC"}]`
 
