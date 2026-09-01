@@ -1,6 +1,6 @@
 # Gametime Last-Minute Tickets & Event Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--08--31-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-26.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
+![Updated](https://img.shields.io/badge/updated-2026--09--01-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-26.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
 
 Daily snapshots of Gametime's last-minute ticket marketplace with events, listings, deal badges, venues, and performers across sports, concerts, and theater.
 
@@ -228,7 +228,7 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 
 
 
-> **4,956** total records from 2025-11-16 to 2026-08-23, **1,000** rows in this sample (20.2% of full dataset).
+> **4,959** total records from 2025-11-16 to 2026-08-30, **1,000** rows in this sample (20.2% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](venues/chart-growth.svg)
@@ -279,7 +279,7 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 | PA | 158 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
 | NC | 155 | `█░░░░░░░░░░░░░░░░░░░` 7.1% |
 | NV | 117 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
-| GA | 108 | `█░░░░░░░░░░░░░░░░░░░` 5.0% |
+| GA | 109 | `█░░░░░░░░░░░░░░░░░░░` 5.0% |
 
 </details>
 
@@ -330,7 +330,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"flashDealPriceTotal","op":"gt","value":0},{"sort":"datetimeUtc ASC"}]`
 
-[NBA Events](https://rebrowser.net/products/datasets/gametime/events/views/nba-events) — 1,595 records
+[NBA Events](https://rebrowser.net/products/datasets/gametime/events/views/nba-events) — 1,603 records
 
 ↳ `[{"field":"category","op":"is","value":"nba"},{"sort":"datetimeUtc ASC"}]`
 
@@ -354,7 +354,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Performers
 
 
-[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 5,619 records
+[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 5,622 records
 
 ↳ `[{"field":"category","op":"is","value":"music"},{"sort":"name ASC"}]`
 
