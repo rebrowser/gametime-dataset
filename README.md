@@ -1,6 +1,6 @@
 # Gametime Last-Minute Tickets & Event Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--09--02-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-26.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
+![Updated](https://img.shields.io/badge/updated-2026--09--03-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-26.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
 
 Daily snapshots of Gametime's last-minute ticket marketplace with events, listings, deal badges, venues, and performers across sports, concerts, and theater.
 
@@ -228,7 +228,7 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 
 
 
-> **4,959** total records from 2025-11-16 to 2026-08-30, **1,000** rows in this sample (20.2% of full dataset).
+> **4,969** total records from 2025-11-16 to 2026-08-30, **1,000** rows in this sample (20.1% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](venues/chart-growth.svg)
@@ -270,15 +270,15 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 
 | Value | Count | Share |
 | --- | --- | --- |
-| CA | 478 | `████░░░░░░░░░░░░░░░░` 22.0% |
-| TX | 305 | `███░░░░░░░░░░░░░░░░░` 14.0% |
-| NY | 297 | `███░░░░░░░░░░░░░░░░░` 13.7% |
+| CA | 478 | `████░░░░░░░░░░░░░░░░` 21.9% |
+| TX | 307 | `███░░░░░░░░░░░░░░░░░` 14.1% |
+| NY | 297 | `███░░░░░░░░░░░░░░░░░` 13.6% |
 | FL | 214 | `██░░░░░░░░░░░░░░░░░░` 9.8% |
 | IL | 174 | `██░░░░░░░░░░░░░░░░░░` 8.0% |
 | OH | 167 | `██░░░░░░░░░░░░░░░░░░` 7.7% |
-| PA | 158 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
+| PA | 159 | `█░░░░░░░░░░░░░░░░░░░` 7.3% |
 | NC | 155 | `█░░░░░░░░░░░░░░░░░░░` 7.1% |
-| NV | 117 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
+| NV | 118 | `█░░░░░░░░░░░░░░░░░░░` 5.4% |
 | GA | 109 | `█░░░░░░░░░░░░░░░░░░░` 5.0% |
 
 </details>
@@ -354,7 +354,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Performers
 
 
-[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 5,634 records
+[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 5,640 records
 
 ↳ `[{"field":"category","op":"is","value":"music"},{"sort":"name ASC"}]`
 
@@ -362,7 +362,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"category","op":"is","value":"cbb"},{"sort":"name ASC"}]`
 
-[Theater Performers](https://rebrowser.net/products/datasets/gametime/performers/views/theater-performers) — 468 records
+[Theater Performers](https://rebrowser.net/products/datasets/gametime/performers/views/theater-performers) — 469 records
 
 ↳ `[{"field":"category","op":"is","value":"theater"},{"sort":"name ASC"}]`
 
@@ -386,7 +386,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"state","op":"is","value":"CA"},{"sort":"name ASC"}]`
 
-[Venues in Texas](https://rebrowser.net/products/datasets/gametime/venues/views/venues-texas) — 298 records
+[Venues in Texas](https://rebrowser.net/products/datasets/gametime/venues/views/venues-texas) — 299 records
 
 ↳ `[{"field":"state","op":"is","value":"TX"},{"sort":"name ASC"}]`
 
@@ -394,7 +394,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"state","op":"is","value":"NY"},{"sort":"name ASC"}]`
 
-[Venues in Florida](https://rebrowser.net/products/datasets/gametime/venues/views/venues-florida) — 210 records
+[Venues in Florida](https://rebrowser.net/products/datasets/gametime/venues/views/venues-florida) — 211 records
 
 ↳ `[{"field":"state","op":"is","value":"FL"},{"sort":"name ASC"}]`
 
