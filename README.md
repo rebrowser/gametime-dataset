@@ -1,6 +1,6 @@
 # Gametime Last-Minute Tickets & Event Listings Dataset
 
-![Updated](https://img.shields.io/badge/updated-2026--09--04-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-26.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
+![Updated](https://img.shields.io/badge/updated-2026--09--05-brightgreen?style=flat-square)&nbsp;![Records](https://img.shields.io/badge/records-26.9M-blue?style=flat-square)&nbsp;[![Rebrowser](https://img.shields.io/badge/full%20dataset-rebrowser.net-orange?style=flat-square)](https://rebrowser.net/products/datasets/gametime)
 
 Daily snapshots of Gametime's last-minute ticket marketplace with events, listings, deal badges, venues, and performers across sports, concerts, and theater.
 
@@ -228,7 +228,7 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 
 
 
-> **4,969** total records from 2025-11-16 to 2026-08-30, **1,000** rows in this sample (20.1% of full dataset).
+> **4,973** total records from 2025-11-16 to 2026-08-30, **1,000** rows in this sample (20.1% of full dataset).
 > Exported as a single file, overwritten daily.
 
 ![Data Growth](venues/chart-growth.svg)
@@ -272,7 +272,7 @@ Gametime venues with name, city, state, metro area, timezone, geo-coordinates, a
 | --- | --- | --- |
 | CA | 478 | `████░░░░░░░░░░░░░░░░` 21.9% |
 | TX | 307 | `███░░░░░░░░░░░░░░░░░` 14.1% |
-| NY | 297 | `███░░░░░░░░░░░░░░░░░` 13.6% |
+| NY | 298 | `███░░░░░░░░░░░░░░░░░` 13.7% |
 | FL | 214 | `██░░░░░░░░░░░░░░░░░░` 9.8% |
 | IL | 174 | `██░░░░░░░░░░░░░░░░░░` 8.0% |
 | OH | 167 | `██░░░░░░░░░░░░░░░░░░` 7.7% |
@@ -330,7 +330,7 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 
 ↳ `[{"field":"flashDealPriceTotal","op":"gt","value":0},{"sort":"datetimeUtc ASC"}]`
 
-[NBA Events](https://rebrowser.net/products/datasets/gametime/events/views/nba-events) — 1,603 records
+[NBA Events](https://rebrowser.net/products/datasets/gametime/events/views/nba-events) — 1,607 records
 
 ↳ `[{"field":"category","op":"is","value":"nba"},{"sort":"datetimeUtc ASC"}]`
 
@@ -354,11 +354,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Performers
 
 
-[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 5,640 records
+[Music Performers](https://rebrowser.net/products/datasets/gametime/performers/views/music-performers) — 5,667 records
 
 ↳ `[{"field":"category","op":"is","value":"music"},{"sort":"name ASC"}]`
 
-[College Basketball Performers](https://rebrowser.net/products/datasets/gametime/performers/views/cbb-performers) — 556 records
+[College Basketball Performers](https://rebrowser.net/products/datasets/gametime/performers/views/cbb-performers) — 560 records
 
 ↳ `[{"field":"category","op":"is","value":"cbb"},{"sort":"name ASC"}]`
 
@@ -382,11 +382,11 @@ Rebrowser web viewer lets you filter, sort, and export any slice of this dataset
 ### Venues
 
 
-[Venues in California](https://rebrowser.net/products/datasets/gametime/venues/views/venues-california) — 474 records
+[Venues in California](https://rebrowser.net/products/datasets/gametime/venues/views/venues-california) — 476 records
 
 ↳ `[{"field":"state","op":"is","value":"CA"},{"sort":"name ASC"}]`
 
-[Venues in Texas](https://rebrowser.net/products/datasets/gametime/venues/views/venues-texas) — 299 records
+[Venues in Texas](https://rebrowser.net/products/datasets/gametime/venues/views/venues-texas) — 300 records
 
 ↳ `[{"field":"state","op":"is","value":"TX"},{"sort":"name ASC"}]`
 
