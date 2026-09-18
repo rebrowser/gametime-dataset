@@ -52,7 +52,7 @@
     "name": "priceFaceValue",
     "type": "float",
     "description": "Face value of ticket in cents (original printed price)",
-    "fillRate": 59,
+    "fillRate": 60,
     "premium": true
   },
   {
@@ -115,7 +115,7 @@
     "name": "transferType",
     "type": "string",
     "description": "Ticket transfer type (tm, paciolan, sg, axs, mlb, text)",
-    "fillRate": 74,
+    "fillRate": 75,
     "premium": false
   },
   {
@@ -129,7 +129,7 @@
     "name": "deal",
     "type": "string",
     "description": "Deal indicator (great, amazing, cheapest, super, zone)",
-    "fillRate": 31,
+    "fillRate": 30,
     "premium": false
   },
   {
